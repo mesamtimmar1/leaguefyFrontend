@@ -1,0 +1,11 @@
+{
+  "name": "leaguefyfrontend",
+  "version": "1.0.0",
+  "description": "Front-end app for league of legends stats app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mesam Timmar",
+  "license": "ISC"
+}
