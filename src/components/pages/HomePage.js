@@ -1,6 +1,8 @@
 import React from 'react';
+import LeagueStats from '../stats/LeagueStats';
 
- const HomePage = props => {
+
+const HomePage = props => {
     return(
         <div className="home-page__wrapper">
             <div className="home-page__header">
@@ -10,7 +12,7 @@ import React from 'react';
             </div>
     
             <div className="home-page__body">
-                STATS
+                <LeagueStats />
             </div>
         </div>
     )

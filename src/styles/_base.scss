@@ -18,3 +18,17 @@ body, html {
 #app {
     height: 100%;
 }
+
+.btn {
+    background-color: transparent;
+    border: 2px solid $main;
+    border-radius: 1px;
+    color: $main;
+
+    &:hover{
+        cursor: pointer;
+        background-color: gray;
+        color: $main;
+        
+    }
+}
